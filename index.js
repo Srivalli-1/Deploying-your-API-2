@@ -3,7 +3,7 @@ const { resolve } = require('path');
 require('dotenv').config();
 
 const app = express();
-const port = 3011;
+const port = 3012;
 
 app.use(express.static('static'));
 
